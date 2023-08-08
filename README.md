@@ -7,7 +7,7 @@ data provided.
 
 This is what our data looks like. The column that we want to predict is Transported.
 
-![features](https://github.com/Mixa26/K-NN_Spaceship_Titanic_Predictions/assets/71144280/0dba30ed-f4dc-4afc-9c3c-6553d4c822a8)
+![features](pictures/Features.jpg)
 
 We used the K-NN algorithm for this assignment. You can find the full specification
 of the project in the "ML D1 2023.pdf" file. This algorigthm refers to the 3rd exercise only (3a,3b,3c).
@@ -17,12 +17,12 @@ are visualizations of the data as well.
 
 These are our predictions based solely on RoomService and FoodCort:
 
-![predictions](https://github.com/Mixa26/K-NN_Spaceship_Titanic_Predictions/assets/71144280/6d5faeba-a08e-4941-afb8-7dbbd0b67067)
+![predictions](pictures/Predictions.jpg)
 
 This is how our accuracy depends on various K parameters with only RoomService and FoodCourt as our features: 
 
-![predictions_17K](https://github.com/Mixa26/K-NN_Spaceship_Titanic_Predictions/assets/71144280/b276d606-81a3-45b6-b948-032cc3171f47)
+![predictions_17K](pictures/Predictions_with_RoomService_and_FoodCourt.jpg)
 
 If we add all the features into training this is how our new diagram looks like: 
 
-![predictions_with_various_K](https://github.com/Mixa26/K-NN_Spaceship_Titanic_Predictions/assets/71144280/dbf22e71-e383-4764-8135-22b25d1805b2)
+![predictions_with_various_K](pictures/Predictions_with_all_features.jpg)
